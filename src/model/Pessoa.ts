@@ -124,5 +124,13 @@ export class Pessoa {
         //Logica de negócio
         console.log(`${this.nome} esta comendo: Uma ${_frase}`);
     }
-}
 
+
+/**
+ * CRUD
+ */
+
+cadastroPessoa(baninha: Pessoa) {
+console.log(`${baninha.nome}cadastrado com sucesso`);
+}
+}

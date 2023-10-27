@@ -1,11 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const Pessoa_1 = require("../model/Pessoa");
-let pessoa = new Pessoa_1.Pessoa(`Luma`, `47808955884`, new Date(2007, 3, 17), `993447320`, `Rua Numero 3`, 160, 58);
-pessoa.falar();
-pessoa.falarFrase("VAI CURINTIA!! BANDO DE OREIUDO");
-pessoa.andar();
-pessoa.andandoDistancia(`230`);
-pessoa.comer();
-pessoa.comendoComida(`Banana`);
+let pessoa = new Pessoa_1.Pessoa(`Maria Zeferina`, `333333333333`, new Date(1972, 8, 29), `9999999999999`, `Rua das Corridas`, 165, 55);
+pessoa.cadastroPessoa(pessoa);
 //# sourceMappingURL=teste.js.map
